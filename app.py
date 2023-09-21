@@ -26,6 +26,6 @@ with col4:
 
 
 if st.button('Predict MPG of Car'):
-    result=predict(np.array([[cylinders,displacement,horsepower,weight,acceleration.modelyear,origin]]))
+    result=predict(np.array([[cylinders,displacement,horsepower,weight,acceleration,modelYear,origin]]))
     st.text(result[0])
 
